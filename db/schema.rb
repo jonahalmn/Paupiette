@@ -12,6 +12,35 @@
 
 ActiveRecord::Schema.define(version: 20170327150913) do
 
+  create_table "etudiants", force: :cascade do |t|
+    t.string   "Nom"
+    t.string   "Prenom"
+    t.date     "Datenaissance"
+    t.string   "Ville"
+    t.string   "Sexe"
+    t.string   "Mail"
+    t.string   "Telephone"
+    t.text     "Interets"
+    t.text     "Descrption"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+  end
+
+  create_table "marmitons", force: :cascade do |t|
+    t.string   "Nom"
+    t.string   "Prenom"
+    t.date     "Datenaissance"
+    t.string   "Ville"
+    t.string   "Sexe"
+    t.string   "Mail"
+    t.string   "Telephone"
+    t.text     "Interets"
+    t.text     "Descrption"
+    t.text     "Adresse"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+  end
+
   create_table "users", force: :cascade do |t|
     t.string   "name"
     t.string   "nickname"
