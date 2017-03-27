@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Date: 2017-03-27 19:43:27
+  menu: MyString
+  location: MyString
+  organisator: MyString
+  participants: MyString
+  participantnumber: 1
+
+two:
+  Date: 2017-03-27 19:43:27
+  menu: MyString
+  location: MyString
+  organisator: MyString
+  participants: MyString
+  participantnumber: 1

@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @repa.Date %>
+</p>
+
+<p>
+  <strong>Menu:</strong>
+  <%= @repa.menu %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @repa.location %>
+</p>
+
+<p>
+  <strong>Organisator:</strong>
+  <%= @repa.organisator %>
+</p>
+
+<p>
+  <strong>Participants:</strong>
+  <%= @repa.participants %>
+</p>
+
+<p>
+  <strong>Participantnumber:</strong>
+  <%= @repa.participantnumber %>
+</p>
+
+<%= link_to 'Edit', edit_repa_path(@repa) %> |
+<%= link_to 'Back', repas_path %>
